@@ -20,4 +20,5 @@ pandoc -s index.md index.docx
 ```
 
 ## Authors
-Sylvain L.
+Boris K
+Adrien M
