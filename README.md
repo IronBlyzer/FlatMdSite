@@ -1,24 +1,24 @@
-# Flat Markdown Site
-Simple single file site generated from a markdown content. 
+# Site Markdown plat
+Site simple à fichier unique généré à partir d'un contenu markdown. 
 
 ## Prerequisites
-Install pandoc using the appropriate package manager for your OS. For example, from ubuntu :
+Installer pandoc en utilisant le gestionnaire de paquets approprié pour le OS. Par exemple ubuntu :
 ```
 sudo apt update -y
 sudo apt install -y pandoc
 ```
 
-## Generate site
-The site can be built with :
+## Générateur de site
 ```
 pandoc -s index.md --template _template_.html -o index.html
 ```
 
-The downloadable docx file can be generated using :
+Le fichier docx téléchargeable peut être généré à l'aide de :
 ```
 pandoc -s index.md index.docx
 ```
 
-## Authors
+## Auteurs
 Boris K
 Adrien M
+Victorien SM
