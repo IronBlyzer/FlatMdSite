@@ -20,5 +20,7 @@ pandoc -s index.md index.docx
 
 ## Auteurs
 Boris K
+
 Adrien M
+
 Victorien SM
